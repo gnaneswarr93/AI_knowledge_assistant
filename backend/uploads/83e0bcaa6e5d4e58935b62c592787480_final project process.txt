@@ -1,0 +1,30 @@
+step 0 
+open windows powershell 
+cd D:\enterprise-ai-knowledge-assistant
+
+
+step 1 docker-compose up -d
+
+
+
+step 2 
+
+cd "D:\enterprise-ai-knowledge-assistant\backend"
+.\venv\Scripts\activate
+
+
+step 3 
+open new powershell terminal 
+continue below step 
+
+step 4
+cd D:\enterprise-ai-knowledge-assistant
+
+step 5 
+npm install
+npm run dev
+
+
+step 6 
+copy the below link and open the website 
+http://192.168.1.6:3000/

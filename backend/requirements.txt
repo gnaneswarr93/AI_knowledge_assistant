@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]>=2.0,<3
+asyncpg
+alembic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+email-validator
+pgvector
+python-multipart
+pdfplumber==0.11.10
+python-docx
+langchain-openai
+langchain-text-splitters
+python-dotenv
